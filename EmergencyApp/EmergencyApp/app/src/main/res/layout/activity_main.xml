@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/holo_red_light"
+tools:context=".Activity.MainActivity">
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="386dp"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="Login as Officer or User?"
+    android:textColor="#000000"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<ImageButton
+    android:id="@+id/officer"
+    android:layout_width="195dp"
+    android:layout_height="174dp"
+    android:layout_marginTop="28dp"
+    android:background="@android:color/transparent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.502"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    app:srcCompat="@drawable/officer" />
+
+    <ImageButton
+        android:id="@+id/user"
+        android:layout_width="195dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/officer"
+        app:srcCompat="@drawable/user" />
+
+</android.support.constraint.ConstraintLayout>

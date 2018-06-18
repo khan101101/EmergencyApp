@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.admin.emergencyapp.Activity.UserAreaActivity">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="Update"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_respone"
+        android:orderInCategory="100"
+        android:title="Check Respone"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="LogOut"
+        app:showAsAction="never" />
+</menu>
